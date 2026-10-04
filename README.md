@@ -16,6 +16,7 @@ for Quickshell, Ghostty, Neovim, and other supported applications.
 - `themes/alpine-lake` — pine-green and glacial-blue palette and two mountain-lake backgrounds.
 - `themes/i-want-to-believe` — desaturated near-black palette and one UFO hill background.
 - `themes/jellyfish-pink-blue` — near-black palette with coral and periwinkle and one jellyfish background.
+- `themes/murkwood` — Murkwood.
 
 Wallpaper files remain private until their redistribution rights are verified.
 See each theme's `WALLPAPERS.md` before publishing or extracting a public theme.
