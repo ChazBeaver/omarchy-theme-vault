@@ -19,6 +19,7 @@ for Quickshell, Ghostty, Neovim, and other supported applications.
 - `themes/murkwood` — Murkwood.
 - `themes/campfire` — Campfire.
 - `themes/dark-lotus` — Dark lotus.
+- `themes/golden-forest` — Golden forest.
 
 Wallpaper files remain private until their redistribution rights are verified.
 See each theme's `WALLPAPERS.md` before publishing or extracting a public theme.
