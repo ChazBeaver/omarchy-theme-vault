@@ -12,4 +12,3 @@ been recorded here.
 | `countryside-town-anime-mountain-road-nature.png` | `~/.config/omarchy/themes/green-sky/backgrounds/countryside-town-anime-mountain-road-nature.png` (hand-installed; origin not recorded) | Private; rights unverified |
 | `Fantasy-Landscape-green-blue-window-room.png` | `~/.config/omarchy/themes/green-sky/backgrounds/Fantasy-Landscape-green-blue-window-room.png` (hand-installed; origin not recorded) | Private; rights unverified |
 | `ghibli-green-river-canyon-valley.png` | `~/.config/omarchy/themes/green-sky/backgrounds/ghibli-green-river-canyon-valley.png` (hand-installed; origin not recorded) | Private; rights unverified |
-| `Lofi-Room-lookout-gold.png` | `~/.config/omarchy/themes/green-sky/backgrounds/Lofi-Room-lookout-gold.png` (hand-installed; origin not recorded) | Private; rights unverified |

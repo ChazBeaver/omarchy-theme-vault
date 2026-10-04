@@ -20,9 +20,9 @@ for Quickshell, Ghostty, Neovim, and other supported applications.
 - `themes/campfire` — Campfire.
 - `themes/dark-lotus` — Dark lotus.
 - `themes/golden-forest` — Golden forest.
-- `themes/green-sky` — Green sky.
+- `themes/blue-sky` — Sky-blue palette and five blue-sky backgrounds.
 - `themes/jungle-lab` — Jungle lab.
-- `themes/purple-dusk` — Purple dusk.
+- `themes/purple-dusk` — Indigo and lavender palette and two dusk backgrounds.
 - `themes/redshift` — Redshift.
 - `themes/soot` — Soot.
 - `themes/stormwave` — Stormwave.

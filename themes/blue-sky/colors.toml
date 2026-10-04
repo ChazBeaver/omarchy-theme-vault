@@ -1,0 +1,32 @@
+# Deep blue room shadows, open skies, cloud white, leafy greens and warm sunlight.
+mode = "dark"
+
+accent = "#68bafa"
+selection = "#2a4861"
+muted = "#859bac"
+
+background = "#101f2d"
+dark_background = "#0c1823"
+darker_background = "#08121b"
+lighter_background = "#192e41"
+
+foreground = "#e4f0f5"
+dark_foreground = "#adc3cf"
+light_foreground = "#eff7fa"
+bright_foreground = "#f8fcff"
+
+red = "#df9690"
+yellow = "#e4cf89"
+orange = "#dfa879"
+green = "#abca76"
+cyan = "#69cec9"
+blue = "#5cacf0"
+magenta = "#b6a1d9"
+brown = "#a38f78"
+
+bright_red = "#f1b0a6"
+bright_yellow = "#f4e3a6"
+bright_green = "#c5df94"
+bright_cyan = "#8ae3dc"
+bright_blue = "#87c9ff"
+bright_magenta = "#d0bdec"
