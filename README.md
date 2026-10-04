@@ -4,9 +4,12 @@ Private incubation repository for personal Omarchy themes. Hyprdots pins this
 repository to an exact commit and exposes selected theme directories under
 `~/.config/omarchy/themes/`.
 
-Each theme is intentionally source-only: `colors.toml`, icon selection,
-backgrounds, and documentation. Omarchy generates application-specific files
-for Quickshell, Ghostty, Neovim, and other supported applications.
+Hand-made themes store `colors.toml`, icon selection, backgrounds, and
+documentation. Preserved upstream themes also retain previews and appearance
+overrides, original licenses, and source attribution in `UPSTREAM.md`.
+Upstream files that Omarchy did not load from community clones are archived
+under each theme's `upstream/` directory for reference. Omarchy generates the
+active terminal and editor configurations from `colors.toml`.
 
 ## Layout
 
@@ -29,12 +32,12 @@ for Quickshell, Ghostty, Neovim, and other supported applications.
 - `themes/football` — Football.
 - `themes/nebraska` — Nebraska.
 - `themes/bolts` — Bolts.
-- `themes/starsend` — Starsend.
-- `themes/sakura-mochi` — Sakura mochi.
-- `themes/matrix` — Matrix.
-- `themes/mars` — Mars.
-- `themes/aura` — Aura.
-- `themes/ethereal-personal` — Ethereal personal.
+- `themes/starsend` — Starsend (preserved personal copy).
+- `themes/sakura-mochi` — Sakura Mochi (preserved personal copy).
+- `themes/matrix` — Matrix (preserved personal copy).
+- `themes/mars` — Mars (preserved personal copy).
+- `themes/aura` — Aura (preserved personal copy).
+- `themes/ethereal-personal` — Ethereal Personal (preserved personal copy).
 
 Wallpaper files remain private until their redistribution rights are verified.
 See each theme's `WALLPAPERS.md` before publishing or extracting a public theme.

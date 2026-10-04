@@ -1,14 +1,13 @@
 # Wallpaper provenance
 
-These files are retained for private personal use while provenance and
-redistribution rights are being verified. Do not include them in a public
-theme release until the creator, source URL, and redistribution license have
-been recorded here.
+All backgrounds below were copied byte-for-byte from the source revision
+recorded in [UPSTREAM.md](UPSTREAM.md). Original credits and supplied
+license files are retained. These copies remain in the private vault.
 
-| File | Original local source | Publication status |
-| --- | --- | --- |
-| `1-dune.webp` | `~/.config/omarchy/themes/starsend/backgrounds/1-dune.webp` (hand-installed; origin not recorded) | Private; rights unverified |
-| `2-crescent.webp` | `~/.config/omarchy/themes/starsend/backgrounds/2-crescent.webp` (hand-installed; origin not recorded) | Private; rights unverified |
-| `3-gate.jpg` | `~/.config/omarchy/themes/starsend/backgrounds/3-gate.jpg` (hand-installed; origin not recorded) | Private; rights unverified |
-| `4-flow.jpg` | `~/.config/omarchy/themes/starsend/backgrounds/4-flow.jpg` (hand-installed; origin not recorded) | Private; rights unverified |
-| `5-arch.jpg` | `~/.config/omarchy/themes/starsend/backgrounds/5-arch.jpg` (hand-installed; origin not recorded) | Private; rights unverified |
+| File | Original source path |
+| --- | --- |
+| `1-dune.webp` | `backgrounds/1-dune.webp` |
+| `2-crescent.webp` | `backgrounds/2-crescent.webp` |
+| `3-gate.jpg` | `backgrounds/3-gate.jpg` |
+| `4-flow.jpg` | `backgrounds/4-flow.jpg` |
+| `5-arch.jpg` | `backgrounds/5-arch.jpg` |
