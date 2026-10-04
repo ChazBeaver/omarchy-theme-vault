@@ -1,4 +1,4 @@
-# Omarchy Theme Drafts
+# Omarchy Theme Vault
 
 Private incubation repository for personal Omarchy themes. Hyprdots pins this
 repository to an exact commit and exposes selected theme directories under
