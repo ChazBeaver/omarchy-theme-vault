@@ -1,6 +1,6 @@
 mode = "dark"
 
-accent = "#5f81b8"
+accent = "#94AEC6"
 selection = "#1a2230"
 muted = "#5c6066"
 
@@ -19,7 +19,7 @@ yellow = "#8affff"
 orange = "#a69ecf"
 green = "#75d0f7"
 cyan = "#86e5ff"
-blue = "#5f81b8"
+blue = "#94AEC6"
 magenta = "#98a6f3"
 brown = "#645f7c"
 
