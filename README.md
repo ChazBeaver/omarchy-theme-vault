@@ -18,6 +18,7 @@ for Quickshell, Ghostty, Neovim, and other supported applications.
 - `themes/jellyfish-pink-blue` — near-black palette with coral and periwinkle and one jellyfish background.
 - `themes/murkwood` — Murkwood.
 - `themes/campfire` — Campfire.
+- `themes/dark-lotus` — Dark lotus.
 
 Wallpaper files remain private until their redistribution rights are verified.
 See each theme's `WALLPAPERS.md` before publishing or extracting a public theme.
