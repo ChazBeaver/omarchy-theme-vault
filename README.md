@@ -22,6 +22,7 @@ for Quickshell, Ghostty, Neovim, and other supported applications.
 - `themes/golden-forest` — Golden forest.
 - `themes/green-sky` — Green sky.
 - `themes/jungle-lab` — Jungle lab.
+- `themes/purple-dusk` — Purple dusk.
 
 Wallpaper files remain private until their redistribution rights are verified.
 See each theme's `WALLPAPERS.md` before publishing or extracting a public theme.
