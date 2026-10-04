@@ -18,3 +18,10 @@ been recorded here.
 | `08-midnight-city-train.jpg` | `~/.config/omarchy/themes/redshift/backgrounds/08-midnight-city-train.jpg` (hand-installed; origin not recorded) | Private; rights unverified |
 | `09-republic-of-gamers-red-hardware-ROG.jpg` | `~/.config/omarchy/themes/redshift/backgrounds/09-republic-of-gamers-red-hardware-ROG.jpg` (hand-installed; origin not recorded) | Private; rights unverified |
 | `10-black-red-eclipse-abstract-circle-round.png` | `~/.config/omarchy/themes/redshift/backgrounds/10-black-red-eclipse-abstract-circle-round.png` (hand-installed; origin not recorded) | Private; rights unverified |
+| `11-omaled-0.png` | imported from `omaled` (hand-installed; origin not recorded) | Private; rights unverified |
+| `12-omaled-1.png` | imported from `omaled` (hand-installed; origin not recorded) | Private; rights unverified |
+| `13-omaled-2.png` | imported from `omaled` (hand-installed; origin not recorded) | Private; rights unverified |
+| `14-omaled-3.png` | imported from `omaled` (hand-installed; origin not recorded) | Private; rights unverified |
+| `15-omaled-4.png` | imported from `omaled` (hand-installed; origin not recorded) | Private; rights unverified |
+| `16-omaled-5.png` | imported from `omaled` (hand-installed; origin not recorded) | Private; rights unverified |
+| `17-omaled-omarchy.png` | imported from `omaled` (hand-installed; origin not recorded) | Private; rights unverified |
