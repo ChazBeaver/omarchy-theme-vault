@@ -34,6 +34,7 @@ for Quickshell, Ghostty, Neovim, and other supported applications.
 - `themes/matrix` — Matrix.
 - `themes/mars` — Mars.
 - `themes/aura` — Aura.
+- `themes/ethereal-personal` — Ethereal personal.
 
 Wallpaper files remain private until their redistribution rights are verified.
 See each theme's `WALLPAPERS.md` before publishing or extracting a public theme.
