@@ -1,6 +1,12 @@
-# Blue sky
+# Blue Sky
 
-Personal Omarchy theme.
+A personally maintained copy of One Dark, with a charcoal background and
+blue accents. The palette, two wallpapers, previews, lock image, icons,
+and keyboard color are preserved from the installed source revision.
 
-The palette in `colors.toml` is the source of truth. Omarchy generates matching
-Quickshell, terminal, Neovim, and application themes when it is selected.
+Edit this theme in `omarchy-theme-vault`. After publishing changes, run
+`./themes.sh update blue-sky` from Hyprdots and select `omarchy theme set blue-sky`.
+Omarchy generates terminal and editor configurations from `colors.toml`.
+
+See [UPSTREAM.md](UPSTREAM.md) for the original source and license.
+The former Blue Sky theme is now [Blue Green](../blue-green/README.md).

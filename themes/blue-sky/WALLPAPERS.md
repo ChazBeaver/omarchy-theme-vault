@@ -1,11 +1,11 @@
 # Wallpaper provenance
 
-These files are retained for private personal use while provenance and
-redistribution rights are being verified. Do not include them in a public
-theme release until the creator, source URL, and redistribution license have
-been recorded here.
+These backgrounds were copied byte-for-byte from the One Dark revision
+recorded in [UPSTREAM.md](UPSTREAM.md). The upstream repository's MIT license
+is retained in [LICENSE](LICENSE); no separate wallpaper credits were supplied
+in the installed snapshot. These copies remain in the private vault.
 
-| File | Original local source | Publication status |
-| --- | --- | --- |
-| `0-storm-clouds.jpg` | `~/.config/omarchy/themes/blue-sky/backgrounds/0-storm-clouds.jpg` (hand-installed; origin not recorded) | Private; rights unverified |
-| `omarchy.png` | `~/.config/omarchy/themes/blue-sky/backgrounds/omarchy.png` (hand-installed; origin not recorded) | Private; rights unverified |
+| File | Original source path |
+| --- | --- |
+| `0-storm-clouds.jpg` | `backgrounds/0-storm-clouds.jpg` |
+| `omarchy.png` | `backgrounds/omarchy.png` |
