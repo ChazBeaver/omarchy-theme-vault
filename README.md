@@ -211,7 +211,7 @@ before extracting any theme into a public repository.
 - `themes/campfire` — Campfire.
 - `themes/dark-lotus` — Dark lotus.
 - `themes/golden-forest` — Golden forest.
-- `themes/blue-sky` — Sky-blue palette and five blue-sky backgrounds.
+- `themes/blue-green` — Dark teal and azure palette and five landscape backgrounds (formerly Blue Sky).
 - `themes/jungle-lab` — Jungle lab.
 - `themes/purple-dusk` — Indigo and lavender palette and two dusk backgrounds.
 - `themes/redshift` — Redshift.

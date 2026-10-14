@@ -1,4 +1,4 @@
-# Blue Sky
+# Blue Green
 
 A dark teal palette drawn from shaded rooms and distant mountains, with
 clear azure accents, soft cloud-white text, sunlit leaf greens, river cyan,
