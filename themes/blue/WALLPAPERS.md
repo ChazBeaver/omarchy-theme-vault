@@ -13,12 +13,11 @@ The `00-` image is the default when switching from another theme.
 
 ## Personal additions
 
-Copied unchanged from the local Adobe Stock downloads for private personal use.
-These additions are not covered by the upstream theme license. Redistribution
-rights have not been recorded; keep them in the private vault.
-The numbered filenames place these two additions after the default.
+Copied unchanged from the local Adobe Stock download for private personal use.
+This addition is not covered by the upstream theme license. Redistribution
+rights have not been recorded; keep it in the private vault.
+The numbered filenames place this addition after the default.
 
 | File | Original local source |
 | --- | --- |
 | `10-blue-underwater-light.jpeg` | `~/Downloads/Ocean/AdobeStock_134537448.jpeg` |
-| `20-blue-ocean-ripples.jpeg` | `~/Downloads/Ocean/AdobeStock_329383801.jpeg` |

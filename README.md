@@ -226,7 +226,7 @@ before extracting any theme into a public repository.
 - `themes/mars` — Mars (preserved personal copy).
 - `themes/aura` — Aura (preserved personal copy).
 - `themes/ethereal` — Ethereal (personal replacement for the packaged theme).
-- `themes/deep-blue` — Deep Blue: personally maintained One Dark palette, cloud and ocean wallpapers, and original appearance assets (formerly Blue Sky).
+- `themes/blue` — Blue: personally maintained One Dark palette, sky and underwater wallpapers, and original appearance assets (formerly Deep Blue and Blue Sky).
 
 Wallpaper files remain private until their redistribution rights are verified.
 See each theme's `WALLPAPERS.md` before publishing or extracting a public theme.

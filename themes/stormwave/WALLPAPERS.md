@@ -22,5 +22,5 @@ the `00-` image is the default when switching from another theme.
 | --- | --- |
 | `00-stormy-ocean.jpeg` | `~/Downloads/Clouds/AdobeStock_745449708.jpeg` |
 | `10-teal-storm-clouds.jpeg` | `~/Downloads/Clouds/AdobeStock_295592286.jpeg` |
-| `15-slate-clouds.jpeg` | `~/Downloads/Clouds/AdobeStock_294995135.jpeg` (moved from Deep Blue, formerly Blue Sky) |
+| `15-slate-clouds.jpeg` | `~/Downloads/Clouds/AdobeStock_294995135.jpeg` (moved from Blue, formerly Blue Sky) |
 | `20-teal-ocean-ripples.jpeg` | `~/Downloads/Ocean/AdobeStock_318599955.jpeg` |
