@@ -15,11 +15,12 @@ been recorded here.
 Copied unchanged from the local Adobe Stock downloads for private personal use.
 These additions are not covered by the upstream theme license. Redistribution
 rights have not been recorded; keep them in the private vault.
-The numbered filenames place these three additions first in the rotation;
+The numbered filenames place these four additions first in the rotation;
 the `00-` image is the default when switching from another theme.
 
 | File | Original local source |
 | --- | --- |
 | `00-stormy-ocean.jpeg` | `~/Downloads/Clouds/AdobeStock_745449708.jpeg` |
 | `10-teal-storm-clouds.jpeg` | `~/Downloads/Clouds/AdobeStock_295592286.jpeg` |
+| `15-slate-clouds.jpeg` | `~/Downloads/Clouds/AdobeStock_294995135.jpeg` (moved from Deep Blue, formerly Blue Sky) |
 | `20-teal-ocean-ripples.jpeg` | `~/Downloads/Ocean/AdobeStock_318599955.jpeg` |

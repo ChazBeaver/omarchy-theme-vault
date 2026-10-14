@@ -1,4 +1,4 @@
-# Blue Sky source
+# Deep Blue source
 
 - Original theme: One Dark by João Pinto
 - Original repository: https://github.com/joaopinto15/omarchy-one-dark-theme.git
