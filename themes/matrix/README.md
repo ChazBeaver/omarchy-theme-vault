@@ -51,6 +51,18 @@ command in the new terminal, preserving argument boundaries.
 
 ### Wallpaper renderer
 
+This optional tool draws **static pictures** of falling code, like
+[`1-falling-code.jpg`](backgrounds/1-falling-code.jpg) (green) and
+[`2-mono-rain.jpg`](backgrounds/2-mono-rain.jpg) (grayscale). It does not animate
+the desktop or use AI. The other shipped photographic wallpapers are not
+created by this script.
+
+Pillow (`python-pillow` on Arch, imported as `PIL` in Python) is the image
+library the script uses to blur the glow, blend image layers, and save PNG/JPEG
+files. Cairo/Pango draw the characters. Pillow is needed only to run this
+renderer and its tests; choosing Matrix or using its existing wallpapers
+does not need it. Keep it uninstalled if you do not want to make new variations.
+
 Requires Python 3.11+, Pycairo, PyGObject, Pillow, Pango/PangoCairo and a font
 with the required glyphs (default: Noto Sans CJK JP). On Omarchy, install the
 renderer dependencies with:
@@ -58,6 +70,11 @@ renderer dependencies with:
 ```bash
 omarchy pkg add python-cairo python-gobject python-pillow pango noto-fonts-cjk
 ```
+
+If the other dependencies are already installed, the only addition is
+`omarchy pkg add python-pillow`. Check first with
+`pacman -Q python-cairo python-gobject python-pillow pango noto-fonts-cjk`.
+The install commands are optional setup steps, not needed to view this theme.
 
 Render into a new temporary output directory to review files before copying
 them into the theme. The positional output is a **directory**, not a filename:
@@ -86,6 +103,21 @@ Width/height must be 64–16384 with at most 40 million pixels; cell size is
 repeatable. With no arguments, the renderer writes both 3840×2160 JPEGs
 directly into `themes/matrix/backgrounds`, replacing matching filenames.
 Use that form only when intentionally regenerating the shipped assets.
+
+Change `--seed` to rearrange the code, `--density` for more or fewer characters,
+and `--bloom` for glow strength. To use a reviewed export locally, add it to
+Omarchy's user background directory, then select Matrix and cycle backgrounds:
+
+```bash
+mkdir -p ~/.config/omarchy/backgrounds/matrix
+cp "$rain_output/1-falling-code.png" ~/.config/omarchy/backgrounds/matrix/custom-rain.png
+omarchy theme set matrix
+omarchy theme bg next
+```
+
+The last two commands change the current desktop theme/background. This local
+background does not modify the pinned vault theme; publishing it in the vault
+instead follows the [vault workflow](../../README.md#edit-publish-and-apply).
 
 ### Tests
 
