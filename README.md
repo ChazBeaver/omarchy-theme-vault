@@ -225,7 +225,7 @@ before extracting any theme into a public repository.
 - `themes/matrix` — Matrix (preserved personal copy).
 - `themes/mars` — Mars (preserved personal copy).
 - `themes/aura` — Aura (preserved personal copy).
-- `themes/ethereal-personal` — Ethereal Personal (preserved personal copy).
+- `themes/ethereal` — Ethereal (personal replacement for the packaged theme).
 - `themes/blue-sky` — Personally maintained One Dark palette, two wallpapers, and original appearance assets.
 
 Wallpaper files remain private until their redistribution rights are verified.
