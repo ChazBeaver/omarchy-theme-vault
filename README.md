@@ -13,18 +13,31 @@ active terminal and editor configurations from `colors.toml`.
 
 ## Manual setup and restoration
 
-This repo has no root installer or doctor. Git stores the editable source;
+The root `install.sh` registers this editable clone; it does not install
+themes. This repo has no root doctor. Git stores the editable source;
 [Hyprdots](../hyprdots/MANUAL.md#themes) installs the exact revision in its
 lockfile. Use Omarchy Quattro on Linux for applying themes. You also need
 Git access to this private vault (including HTTPS/SSH authentication as
 required by Hyprdots' recorded remote).
 
-If the working clone does not exist yet:
+Personal repositories live at `~/Projects/home/<repo>` on every machine.
+If the working clone does not exist yet, create the parent before cloning:
 
 ```bash
 mkdir -p ~/Projects/home
 git clone git@github.com:ChazBeaver/omarchy-theme-vault.git ~/Projects/home/omarchy-theme-vault
+cd ~/Projects/home/omarchy-theme-vault
+./install.sh
+source ~/.dotfiles-env.sh
 ```
+
+The installer creates `~/Projects/home` and `~/.dotfiles-env.sh` when missing,
+then registers `OMARCHY_THEME_VAULT_DIR` and the `omarchy-theme-vault` navigation
+alias. Rerun it after moving the checkout or to repair its registration. It
+removes duplicate entries for its own keys and preserves other repos' entries;
+it does not move the checkout. This includes the working clone in appdots'
+`home-status` and `home-pull`. It has no `sync.sh` or `doctor.sh`, so those
+bulk helpers skip it. Check registration with `bash tests/env.sh`.
 
 Restore the currently pinned themes and select one:
 
