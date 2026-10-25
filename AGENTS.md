@@ -1,6 +1,6 @@
 # Theme vault agent instructions
 
-This private repository owns editable theme sources under `themes/<slug>/`.
+This repository owns editable theme sources under `themes/<slug>/`.
 Hyprdots owns their installed checkouts, pins, and lifecycle commands.
 `README.md` describes this vault's layout and manual examples.
 
@@ -8,6 +8,10 @@ For installation, publication, pinning, renaming, or removal, read the existing
 [Hyprdots theme workflow](../hyprdots/.agents/skills/hyprdots-themes/SKILL.md).
 Edit this working vault rather than Hyprdots' managed source checkout. Vault
 edits alone do not update installed themes or the Hyprdots lock.
+
+Selected wallpapers must be committed with their theme under `backgrounds/`;
+follow [the persistence policy](README.md#wallpaper-persistence). Do not impose
+a private-only storage rule; repository visibility is a separate choice.
 
 Before changing a theme, read its own README when present. For wallpaper
 changes or publication, also read its `WALLPAPERS.md`, `UPSTREAM.md`, and

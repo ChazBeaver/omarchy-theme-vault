@@ -3,7 +3,7 @@
 These backgrounds were copied byte-for-byte from the One Dark revision
 recorded in [UPSTREAM.md](UPSTREAM.md). The upstream repository's MIT license
 is retained in [LICENSE](LICENSE); no separate wallpaper credits were supplied
-in the installed snapshot. These copies remain in the private vault.
+in the installed snapshot. These wallpaper files are versioned with the theme source.
 The `00-` image is the default when switching from another theme.
 
 | File | Original source path |
@@ -13,9 +13,9 @@ The `00-` image is the default when switching from another theme.
 
 ## Personal additions
 
-Copied unchanged from the local Adobe Stock download for private personal use.
+Copied unchanged from the local Adobe Stock download for personal maintenance.
 This addition is not covered by the upstream theme license. Redistribution
-rights have not been recorded; keep it in the private vault.
+rights have not been recorded; the file is versioned with this theme.
 The numbered filenames place this addition after the default.
 
 | File | Original local source |

@@ -1,15 +1,14 @@
 # Wallpaper provenance
 
-These files are retained for private personal use while provenance and
-redistribution rights are being verified. Do not include them in a public
-theme release until the creator, source URL, and redistribution license have
-been recorded here.
+These wallpaper files are versioned with the theme under the
+[vault persistence policy](../../README.md#wallpaper-persistence).
+Source and license details are recorded below; unknown details stay explicit.
 
-| File | Original local source | Publication status |
+| File | Original local source | Recorded rights status |
 | --- | --- | --- |
-| `00-afternoon-park.png` | `~/.config/omarchy/themes/afternoon-peaceful-park/backgrounds/wallpaper.png` (hand-installed; origin not recorded) | Private; rights unverified |
-| `japanese-evening-street-hill-city-overlook.jpg` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Private; rights unverified |
-| `Lofi-Room-lookout-gold.png` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Private; rights unverified |
-| `morning-beach-sunrise-tranquil-waves-shore.jpg` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Private; rights unverified |
-| `mountains-lake-sunset-painting.jpg` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Private; rights unverified |
-| `Study-table.png` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Private; rights unverified |
+| `00-afternoon-park.png` | `~/.config/omarchy/themes/afternoon-peaceful-park/backgrounds/wallpaper.png` (hand-installed; origin not recorded) | Rights unverified |
+| `japanese-evening-street-hill-city-overlook.jpg` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Rights unverified |
+| `Lofi-Room-lookout-gold.png` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Rights unverified |
+| `morning-beach-sunrise-tranquil-waves-shore.jpg` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Rights unverified |
+| `mountains-lake-sunset-painting.jpg` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Rights unverified |
+| `Study-table.png` | imported from `omarchy-afternoon-theme` (hand-installed; origin not recorded) | Rights unverified |

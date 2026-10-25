@@ -1,13 +1,12 @@
 # Wallpaper provenance
 
-These files are retained for private personal use while provenance and
-redistribution rights are being verified. Do not include them in a public
-theme release until the creator, source URL, and redistribution license have
-been recorded here.
+These wallpaper files are versioned with the theme under the
+[vault persistence policy](../../README.md#wallpaper-persistence).
+Source and license details are recorded below; unknown details stay explicit.
 
-| File | Original local source | Publication status |
+| File | Original local source | Recorded rights status |
 | --- | --- | --- |
-| `1-coastal-cafe.jpg` | `Backups/Pictures/wallpapers/coastal-cafe-seaside-ocean.jpg` | Private; rights unverified |
-| `2-peaceful-village.jpg` | `Backups/Pictures/wallpapers/coastal-seaside-peaceful-village-calm-2.jpg` | Private; rights unverified |
-| `3-calm-blue.jpg` | `Backups/Pictures/wallpapers/coastal-seaside-peaceful-village-calm-blue.jpg` | Private; rights unverified |
+| `1-coastal-cafe.jpg` | `Backups/Pictures/wallpapers/coastal-cafe-seaside-ocean.jpg` | Rights unverified |
+| `2-peaceful-village.jpg` | `Backups/Pictures/wallpapers/coastal-seaside-peaceful-village-calm-2.jpg` | Rights unverified |
+| `3-calm-blue.jpg` | `Backups/Pictures/wallpapers/coastal-seaside-peaceful-village-calm-blue.jpg` | Rights unverified |
 

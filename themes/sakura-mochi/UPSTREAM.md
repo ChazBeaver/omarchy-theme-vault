@@ -3,7 +3,7 @@
 - Original repository: https://github.com/OldJobobo/omarchy-sakura-mochi-theme.git
 - Preserved commit: `a64fd93e43838366eab7884db6c49721e4d0d27c`
 
-Preserved for private personal use from the installed version. Original
+Preserved from the installed version for personal maintenance. Original
 authors retain their credits and licenses; this copy is maintained in
 `omarchy-theme-vault` and does not fetch files from the original repository.
 Original documentation and license files are retained when supplied.

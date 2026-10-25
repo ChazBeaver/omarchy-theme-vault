@@ -2,7 +2,7 @@
 
 All backgrounds below were copied byte-for-byte from the source revision
 recorded in [UPSTREAM.md](UPSTREAM.md). Original credits and supplied
-license files are retained. These copies remain in the private vault.
+license files are retained. These wallpaper files are versioned with the theme source.
 
 | File | Original source path |
 | --- | --- |

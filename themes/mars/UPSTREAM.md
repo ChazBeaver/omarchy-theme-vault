@@ -3,7 +3,7 @@
 - Original repository: https://github.com/steve-lohmeyer/omarchy-mars-theme.git
 - Preserved commit: `255a8cb5331fc41cc9f976c643dbe5f9db38f4fd`
 
-Preserved for private personal use from the installed version. Original
+Preserved from the installed version for personal maintenance. Original
 authors retain their credits and licenses; this copy is maintained in
 `omarchy-theme-vault` and does not fetch files from the original repository.
 Original documentation and license files are retained when supplied.

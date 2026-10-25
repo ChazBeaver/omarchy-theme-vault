@@ -1,6 +1,6 @@
 # Omarchy Theme Vault
 
-Private incubation repository for personal Omarchy themes. Hyprdots pins this
+Source repository for personally maintained Omarchy themes. Hyprdots pins this
 repository to an exact commit and exposes selected theme directories under
 `~/.config/omarchy/themes/`.
 
@@ -11,13 +11,26 @@ Upstream files that Omarchy did not load from community clones are archived
 under each theme's `upstream/` directory for reference. Omarchy generates the
 active terminal and editor configurations from `colors.toml`.
 
+## Wallpaper persistence
+
+Commit every wallpaper selected for a managed theme under that theme's
+`backgrounds/` directory, alongside its palette and documentation. Cloning the
+repository and restoring its pin must bring back the wallpaper files without
+requiring downloads, local-only folders, or manual copies from another machine.
+Repository visibility does not change this persistence requirement.
+
+Record source paths, creators, credits, and supplied licenses in each theme's
+`WALLPAPERS.md` and `UPSTREAM.md`. Keep unknown details explicit; versioning an
+image does not change its authorship or license. Preview images may be relative
+links to a committed wallpaper so one image asset can serve both purposes.
+
 ## Manual setup and restoration
 
 The root `install.sh` registers this editable clone; it does not install
 themes. This repo has no root doctor. Git stores the editable source;
 [Hyprdots](../hyprdots/MANUAL.md#themes) installs the exact revision in its
 lockfile. Use Omarchy Quattro on Linux for applying themes. You also need
-Git access to this private vault (including HTTPS/SSH authentication as
+Git access to this vault (including HTTPS/SSH authentication as
 required by Hyprdots' recorded remote).
 
 Personal repositories live at `~/Projects/home/<repo>` on every machine.
@@ -60,7 +73,7 @@ the installed themes.
 ## Edit, publish, and apply
 
 The following example intentionally commits and pushes a change to the
-private vault. Start with a clean checkout, edit the named theme, and review
+theme vault. Start with a clean checkout, edit the named theme, and review
 the files before publishing. Substitute your editor for `nvim` if needed.
 
 ```bash
@@ -114,7 +127,7 @@ HYPRDOTS_THEME_AUTOPIN=0 omarchy theme set my-dusk
 ```
 
 Check the appearance, then persist it with Hyprdots. **`draft` creates a
-commit and pushes the private vault automatically**; it requires a clean,
+commit and pushes the theme vault automatically**; it requires a clean,
 up-to-date working clone and an existing `personal-drafts` lock entry:
 
 ```bash
@@ -242,6 +255,7 @@ before extracting any theme into a public repository.
 - `themes/aura` — Aura (preserved personal copy).
 - `themes/ethereal` — Ethereal (personal replacement for the packaged theme).
 - `themes/blue` — Blue: personally maintained One Dark palette, sky and underwater wallpapers, and original appearance assets (formerly Deep Blue and Blue Sky).
+- `themes/rose-pine-dark` — personally maintained Rosé Pine Main dark palette, with one space wallpaper shared by the theme preview.
 
-Wallpaper files remain private until their redistribution rights are verified.
-See each theme's `WALLPAPERS.md` before publishing or extracting a public theme.
+See [Wallpaper persistence](#wallpaper-persistence) and each theme's
+`WALLPAPERS.md` for asset storage and provenance.
