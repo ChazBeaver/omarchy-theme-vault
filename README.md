@@ -51,18 +51,22 @@ removes duplicate entries for its own keys and preserves other repos' entries;
 it does not move the checkout. This includes the working clone in appdots'
 `home-status` and `home-pull`. It has no `sync.sh` or `doctor.sh`, so those
 bulk helpers skip it. Check registration with `bash tests/env.sh`.
+`home-sync` still installs and refreshes these themes through Hyprdots, which
+owns the single theme installer.
 
-Restore the currently pinned themes and select one:
+Restore the currently pinned themes and refresh the current managed theme:
 
 ```bash
 cd ~/Projects/home/hyprdots
 ./sync.sh
 ./themes.sh status
 ./doctor.sh
-omarchy theme switcher --preload
-omarchy theme set coastal-village
-omarchy theme bg next              # cycle its backgrounds
 ```
+
+Use `./themes.sh sync` from Hyprdots for themes alone. Both sync entry points
+preserve the machine's selected theme and any selected wallpaper that still
+exists. Select another theme explicitly with `omarchy theme set coastal-village`.
+Offline or headless runs defer visual refresh until a normal desktop sync.
 
 Sync installs a separate managed checkout under
 `~/.local/share/hyprdots/theme-sources/personal-drafts` and links its selected
@@ -98,16 +102,18 @@ cd ~/Projects/home/hyprdots
 ./themes.sh update coastal-village
 git diff -- config/themes.lock.tsv
 # Run the source diff command printed by update to inspect the new revision.
+./themes.sh sync
 ./doctor.sh
-omarchy theme switcher --preload
-omarchy theme set coastal-village
 git add config/themes.lock.tsv
 git commit -m "chore(themes): update personal vault pin"
 git push
 ```
 
 Updating one theme moves every Hyprdots pin sharing `personal-drafts` to
-the new vault commit. Applying the theme is a separate step. Keep custom
+the new vault commit. Sync then refreshes the current managed theme and previews.
+Publishing the Hyprdots pin is required: another machine's pull and sync restore
+that recorded revision, including wallpapers, rather than following the vault's
+latest branch automatically. Keep custom
 terminal/editor source overrides separate from Omarchy's generated active
 files. `icons.theme` chooses the icon theme; backgrounds and source/rights
 records live beside the palette.
@@ -133,6 +139,7 @@ up-to-date working clone and an existing `personal-drafts` lock entry:
 ```bash
 cd ~/Projects/home/hyprdots
 ./themes.sh draft my-dusk
+./themes.sh sync
 ./themes.sh status
 ./doctor.sh
 ```
@@ -162,6 +169,7 @@ git push
 
 cd ~/Projects/home/hyprdots
 ./themes.sh rename my-dusk evening-lab
+./themes.sh sync
 ./doctor.sh
 omarchy theme switcher --preload
 omarchy theme set evening-lab
@@ -199,6 +207,7 @@ git revert COMMIT_TO_REVERT
 git push
 cd ~/Projects/home/hyprdots
 ./themes.sh update coastal-village
+./themes.sh sync
 ./doctor.sh
 omarchy theme set coastal-village
 ```
