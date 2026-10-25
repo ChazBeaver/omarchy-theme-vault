@@ -153,12 +153,14 @@ substituting that hash. Use `rename` while the old slug is still pinned;
 
 ## Retire or recover a theme
 
-Stop managing an installed theme with
-`./themes.sh unpin evening-lab` from Hyprdots; it leaves an unmanaged copy.
-Select another theme and use `omarchy theme remove evening-lab` if you also
-want the installed copy removed. If deleting its source from the vault,
-unpin it on managed machines before publishing the deletion; otherwise their
-next source update will refer to a missing directory.
+Select another theme, then run `./themes.sh remove evening-lab` from Hyprdots
+to remove the installed copy and drop its pin after successful removal. The
+vault's source files stay intact. To keep the theme installed but stop managing
+it, use `./themes.sh unpin evening-lab`; it leaves an unmanaged copy.
+
+Before publishing a source deletion from the vault, remove or unpin the theme
+on managed machines; otherwise their next source update will refer to a
+missing directory.
 
 For an unwanted **published** palette change, revert its commit in the vault
 (substitute the actual commit ID), publish the correction, then update the
