@@ -21,7 +21,8 @@ The root `install.sh` only registers the working clone in `.dotfiles-env.sh`;
 theme installation and pins remain owned by Hyprdots. After registration
 changes, run `bash tests/env.sh` and `./install.sh`.
 For documentation-only changes, check links, the relative `CLAUDE.md` symlink,
-and `git diff --check`. This repository has no root doctor.
+and `git diff --check`. The root `doctor.sh` checks working-clone registration
+only; theme diagnostics remain in Hyprdots.
 For Matrix code changes, read its README and run
 `python3 -B themes/matrix/tests/test_theme.py`. Follow the Hyprdots workflow's
 verification for changes to installed themes; keep visual activation separate

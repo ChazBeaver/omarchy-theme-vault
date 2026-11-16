@@ -27,7 +27,7 @@ links to a committed wallpaper so one image asset can serve both purposes.
 ## Manual setup and restoration
 
 The root `install.sh` registers this editable clone; it does not install
-themes. This repo has no root doctor. Git stores the editable source;
+themes. Its root doctor checks registration only. Git stores the editable source;
 [Hyprdots](../hyprdots/MANUAL.md#themes) installs the exact revision in its
 lockfile. Use Omarchy Quattro on Linux for applying themes. You also need
 Git access to this vault (including HTTPS/SSH authentication as
@@ -49,8 +49,9 @@ then registers `OMARCHY_THEME_VAULT_DIR` and the `omarchy-theme-vault` navigatio
 alias. Rerun it after moving the checkout or to repair its registration. It
 removes duplicate entries for its own keys and preserves other repos' entries;
 it does not move the checkout. This includes the working clone in appdots'
-`home-status` and `home-pull`. It has no `sync.sh` or `doctor.sh`, so those
-bulk helpers skip it. Check registration with `bash tests/env.sh`.
+`home-status` and `home-pull`. It has no `sync.sh`; `home-doctor` can check
+its registration through `./doctor.sh`. For unattended registration, logs,
+exit codes, and fixtures, see [the installer contract](INSTALL.md).
 `home-sync` still installs and refreshes these themes through Hyprdots, which
 owns the single theme installer.
 

@@ -49,9 +49,18 @@ ensure_theme_vault_env() {
 }
 
 if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
+  if (( $# )); then
+    case "$1" in
+      --non-interactive|--check|--log-dir|--help|-h)
+        ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+        command -v python3 >/dev/null || { printf '%s\n' 'Install Python 3 before unattended registration.' >&2; exit 4; }
+        exec python3 -B "$ROOT/scripts/unattended-install.py" "$@" ;;
+      *) printf 'Unknown option: %s\n' "$1" >&2; exit 2 ;;
+    esac
+  fi
   SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-  ensure_theme_vault_env "$SCRIPT_DIR"
+  ensure_theme_vault_env "$SCRIPT_DIR" "${DOTFILES_REGISTRY_FILE:-$HOME/.dotfiles-env.sh}"
   printf '%s\n' "✅ OMARCHY_THEME_VAULT_DIR: $OMARCHY_THEME_VAULT_DIR"
-  printf '%s\n' "✅ Alias 'omarchy-theme-vault' persisted in $HOME/.dotfiles-env.sh"
+  printf '%s\n' "✅ Alias 'omarchy-theme-vault' persisted in ${DOTFILES_REGISTRY_FILE:-$HOME/.dotfiles-env.sh}"
   printf '%s\n' 'Open a new shell or source ~/.dotfiles-env.sh.'
 fi

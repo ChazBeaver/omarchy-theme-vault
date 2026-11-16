@@ -37,3 +37,6 @@ registered="$(bash -c 'source "$1"; printf "%s" "$OMARCHY_THEME_VAULT_DIR"' bash
 [[ "$registered" == "$repo_dir" ]] || fail 'stale export was not repaired'
 
 printf 'PASS: registration creates the parent, preserves literal paths and foreign entries, repairs duplicates, and is idempotent\n'
+
+source "$REPO_DIR/lib/registration.sh"
+check_registration "$repo_dir" "$env_file" || fail 'doctor rejected a literal checkout path'
